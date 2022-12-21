@@ -15,9 +15,9 @@ jobs:
           fetch-depth: 0
         
       - name: 'Gource Action'
-        uses: nbprojekt/gource-action@v1
+        uses: nbprojekt/gource-action@master
         with:
-          git_url: './'
+          git_url: https://github.com/docker/cli
           gource_title: 'KodaDot NFT marketplace'
           gource_resolution: '720p'
           gource_fps: 60
