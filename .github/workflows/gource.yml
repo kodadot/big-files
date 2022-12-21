@@ -24,7 +24,7 @@ jobs:
           gource_resolution: '1440p'
           gource_fps: 60
           gource_font_size: 40
-          gource_start_date: '2021-09-01'
+          gource_start_date: '2020-09-01'
 #          gource_stop_date: '2022-11-31'
 
       - name: 'Upload gource video'
