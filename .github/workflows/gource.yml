@@ -22,7 +22,7 @@ jobs:
           gource_resolution: '720p'
           gource_fps: 60
           gource_font_size: 40
-          ource_start_date: '2022-10-01'
+          gource_start_date: '2022-10-01'
           gource_stop_date: '2019-12-01'
 
       - name: 'Upload gource video'
