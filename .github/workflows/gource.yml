@@ -1,8 +1,8 @@
-name: Gource Action
+name: Gource Action bump
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   action:
