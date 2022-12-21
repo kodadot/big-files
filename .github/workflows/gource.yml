@@ -18,12 +18,13 @@ jobs:
         uses: nbprojekt/gource-action@master
         with:
           git_url: https://github.com/docker/cli
-          gource_title: 'KodaDot NFT marketplace'
-          gource_resolution: '720p'
+          gource_title: 'Docker CLI'
+          logo_url: 'https://user-images.githubusercontent.com/24683383/92395924-70189f80-f124-11ea-815c-aa4d9f4de29d.png'
+          gource_resolution: '1080p'
           gource_fps: 60
           gource_font_size: 40
-          gource_start_date: '2022-10-01'
-          gource_stop_date: '2019-12-01'
+          gource_start_date: '2016-04-18'
+          gource_stop_date: '2019-12-31'
 
       - name: 'Upload gource video'
         uses: actions/upload-artifact@v2
