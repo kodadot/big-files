@@ -31,3 +31,10 @@ jobs:
         with:
           name: Gource
           path: ./gource/gource.mp4
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          branch: action
+          title: "[skip ci] update gource video"
+          commit-message: "[skip ci] update gource video"
