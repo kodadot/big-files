@@ -21,11 +21,11 @@ jobs:
           gource_title: 'KodaDot NFT marketplace'
           logo_url: 'https://github.com/kodadot/kodadot-presskit/blob/main/v3/KODA_v3.png?raw=true'
           avatars_auto_fetch: 'true'
-          gource_resolution: '1080p'
+          gource_resolution: '1440p'
           gource_fps: 60
           gource_font_size: 40
-          gource_start_date: '2022-05-18'
-          gource_stop_date: '2022-11-31'
+          gource_start_date: '2021-09-01'
+#          gource_stop_date: '2022-11-31'
 
       - name: 'Upload gource video'
         uses: actions/upload-artifact@v2
