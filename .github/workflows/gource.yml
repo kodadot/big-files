@@ -27,7 +27,7 @@ jobs:
           gource_start_date: '2020-09-01'
           gource_dir_depth: 6
           gource_filename_time: 6
-          gource_seconds_per_day: 3
+          gource_seconds_per_day: 1.5
 
 #          gource_stop_date: '2022-11-31'
 
