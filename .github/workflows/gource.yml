@@ -17,7 +17,7 @@ jobs:
       - name: 'Gource Action'
         uses: nbprojekt/gource-action@master
         with:
-          template: 'none'
+          args: 'TEMPLATE=none'
           git_url: 'https://github.com/kodadot/nft-gallery'
           gource_title: 'KodaDot NFT marketplace'
           logo_url: 'https://github.com/kodadot/kodadot-presskit/blob/main/v3/KODA_v3.png?raw=true'
