@@ -28,6 +28,7 @@ jobs:
           gource_dir_depth: 6
           gource_filename_time: 6
           gource_seconds_per_day: 0.1
+          gource_frameless: true
 
 
       - name: 'Upload gource video'
